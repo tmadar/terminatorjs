@@ -9,8 +9,8 @@
   "content_scripts": [
 	{
      		"matches": ["http://www.twitch.tv/*"],
-     		"js": ["terminator.js"],
-                "run_at": "document_idle"
+     		"js": ["jquery.js","terminator.js"],
+                "run_at": "document_end"
     	}
    ]
 }
